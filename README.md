@@ -25,7 +25,7 @@
 
 原则上工作流程应由 NHSConditionsSrc 完成单元搬运后进行翻译。
 
-## NHSConditionsSrc 储存库
+## NHSConditionsSrc 存储库
 
 这是用于存储 NHS Conditions 相关页面的原始内容的存储库，原始内容可以由 <https://www.nhs.uk/conditions/> 进行获取。
 
