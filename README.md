@@ -61,3 +61,40 @@
 
 - 潜在的暂时更正（例如因疫情原因，对应的区域服务更正）
 
+### Markdown 格式规范
+
+1. 在文档开头，请注释指向的目录。  
+例如 <https://github.com/NHSZH/NHS/blob/master/abdominal-aortic-aneurysm.md>  
+文件 `abdominal-aortic-aneurysm.md` 指向 `AAA` 与 `Abdominal aortic aneurysm`，使用请使用注释 `<!-- AAA/Abdominal aortic aneurysm -->`  
+这将有助于以后的构建。
+
+2. 文章的二级标题（`##`）前请增加三行空行以便于分割段落。  
+列如
+```markdown
+xxxx
+<!-- 第一行，注释请勿输入 -->
+<!-- 第二行，注释请勿输入 -->
+<!-- 第三行，注释请勿输入 -->
+## ...
+```
+这将提升文件可读性。
+
+3. 对于文章的结尾标记，请使用类似如下格式：
+```markdown
+***Page last reviewed: 12 January 2021  
+Next review due: 12 January 2024***
+```  
+当然，如果你想加入你的搬运名称可以使用如下格式：
+```markdown
+***Page last reviewed: 12 January 2021  
+Next review due: 12 January 2024  
+Mover： xxxx***
+```  
+或者
+```markdown
+***Page last reviewed: 12 January 2021  
+Next review due: 12 January 2024  
+Mover： xxxx  
+Mover Date: 14 January 2021***
+```  
+这个很重要，以后可能存在的定期文档更新，CI 可能需要合理的格式。
