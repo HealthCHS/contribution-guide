@@ -1,6 +1,8 @@
 # 构建指南
 
-首先欢迎大家加入到这里，欢迎大家帮助构建。
+首先欢迎大家来到到这里，同样欢迎大家帮助构建。  
+大家可以通过 PR 的方式帮助我们进行。  
+或者电邮我 [realkevin@tutanota.com](mailto:realkevin@tutanota.com) 来加入组织。
 
 ## 内容组成
 
