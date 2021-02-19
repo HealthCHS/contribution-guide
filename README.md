@@ -11,12 +11,12 @@
 目前我们的项目包含如下组成部分
 
 - contribution-guide -> 构建手册
-- NHS -> 翻译终了的 NHS 内容
-- NHSConditionsSrc -> 这是用于存储 NHS Conditions 相关页面的原始内容
+- CHS -> 翻译终了的 NHS 内容
+- SRC -> 这是用于存储 NHS Conditions 相关页面的原始内容
 
 
 
-## NHS 存储库
+## CHS 存储库
 
 这是用于存储翻译终了的 NHS 内容。
 
@@ -49,7 +49,7 @@
 
 
 
-## NHSConditionsSrc 存储库
+## SRC 存储库
 
 这是用于存储 NHS Conditions 相关页面的原始内容的存储库，原始内容可以由 <https://www.nhs.uk/conditions/> 进行获取。
 
