@@ -109,19 +109,25 @@ xxxx
 3. 对于文章的结尾标记，请使用类似如下格式：
 ```markdown
 ***Page last reviewed: 12 January 2021  
-Next review due: 12 January 2024***
+Next review due: 12 January 2024  
+Source link: <link>  
+Source License: [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)***
 ```  
 当然，如果你想加入你的搬运名称可以使用如下格式：
 ```markdown
 ***Page last reviewed: 12 January 2021  
 Next review due: 12 January 2024  
+Source link: <link>  
+Source License: [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)  
 Mover： xxxx***
 ```  
 或者
 ```markdown
 ***Page last reviewed: 12 January 2021  
 Next review due: 12 January 2024  
+Source link: <link>  
+Source License: [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)  
 Mover： xxxx  
-Mover Date: 14 January 2021***
+Move Date: 14 January 2021***
 ```  
 这个很重要，以后可能存在的定期文档更新，CI 可能需要合理的格式。
